@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="shortcut icon" href="img/favicon.gif" type="image/gif">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <title>TRUCK DOCTOR</title>
+	</head>
+
+	<body>
+        <header>
+            <div class="header_info">
+                <h1>VOLVO TRUCK DOCTOR</h1>
+                <p>+375(44) 7 586 586</p>
+            </div>
+            <nav class="menu">
+                    <div class="menu_list">
+                        <div class="menu_list_item"><a href="index.html" class="item"><i class="fas fa-home"></i> Главная</a></div>
+                        <div class="menu_list_item"><a href="service.html" class="item"><i class="fas fa-ambulance"></i> Сервис</a></div>
+                        <div class="menu_list_item"><a href="parts.html" class="item"><i class="fas fa-luggage-cart"></i> Запчасти</a></div>
+                        <div class="menu_list_item"><a href="videogallery.html" class="item"><i class="fas fa-video"></i> Видео</a></div>
+                        <div class="menu_list_item"><a href="contacts.html" class="item"><i class="far fa-address-card"></i> Контакты</a></div>
+                    </div>
+                </nav>
+        </header>
+
+    <main>
+        <div class="parts_intro">
+            <h2>Техподдержка/Запасные части</h2><br>
+            <p><span>ВНИМАНИЕ!!!</span><br><br>Уважаемые коллеги, для ускорения скорости ответа и улучшения его качества, пожалуйста, укажите <strong>ПОЛНЫЙ</strong> VIN-номер вашего грузовика</p>
+        </div>
+        <div class="form_imgbg">
+            <div class="parts_form">
+                <form class="parts_order">
+        <fieldset>
+        <legend>Укажите тип автомобиля и необходимую запасную часть</legend>
+        <div class="form-group">
+            <label for="volvo_model">Выберите модель</label>
+            <div class="form_input">
+                <select id="volvo_model" name="selectbasic" class="form-control">
+                        <option value="1">FH12/FM12</option>
+                        <option value="2">FL6/FL7</option>
+                        <option value="3">FL/FE</option>
+                        <option value="4">FL3/FE3</option>
+                        <option value="5">F12/F16</option>
+                        <option value="6">FH-2 series</option>
+                        <option value="7">FH-3 series</option>
+                        <option value="8">FH16</option>
+                        <option value="9">FH4/FM4</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="year">Год выпуска</label>
+            <div class="form_input">
+                <input id="year" name='year' type='number' value='' step="1" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="textinput">Номер шасси (Обязательно!)</label>
+            <div class="form_input">
+                <input id="textinput" name="textinput" type="text" placeholder="VIN" class="form-control input-md" value="">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="tel">Ваш телефон:</label>
+            <div class="form_input">    
+                <input class="area" type="tel" id="tel" name="tel" placeholder="Введите номер телефона">
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="checkbox" name="checkboxes_eng">
+        Сохранить автомобиль в личном кабинете
+        </div>
+    <div class="parts_quizz">
+            <div class="quizz">    
+                <label class="label" for="checkboxes_condition">Состояние:</label>
+                <div class="parts_condition">
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkboxes_condition">
+                        Новые
+                    </div>
+                    <div class="checkbox">
+                            <input type="checkbox" name="checkboxes_condition">
+                        Б/У
+                    </div>
+                </div>
+            </div>
+            <div class="quizz">    
+                <label class="label" for="checkboxes_brand">Бренд:</label>
+                <div class="parts_brand">
+                        <div class="checkbox">
+                            <input type="checkbox" name="checkboxes_brand">
+                            Volvo
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_brand">
+                            CEI
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_brand">
+                            DT
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_brand">
+                            Covind
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_brand">
+                            Sampa
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_brand">
+                            Meritor
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_brand">
+                            Febi
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_brand">
+                            Behr-Hella
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_brand">
+                            R-Truck
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_brand">
+                            Bosch
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_brand">
+                            Dinex
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_brand">
+                            Kahvechi
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_brand">
+                            Все варианты
+                        </div>
+                </div>
+            </div>
+            <div class="quizz">    
+                <label class="label" for="checkboxes_contact">Как связаться?</label>
+                <div class="parts_contact">
+                        <div class="checkbox">
+                            <input type="checkbox" name="checkboxes_electr">
+                            Мобильный телефон
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_electr">
+                            Viber
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_electr">
+                            Skype
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_electr">
+                            WhatsApp
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_electr">
+                            Telegram
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_electr">
+                            E-mail
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="parts_country">Выберите страну поиска</label>
+            <div class="form_input">
+                <select id="parts_country" name="selectbasic" class="form-control">
+                        <option value="1">Беларусь</option>
+                        <option value="2">Россия</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="textinput">В каком городе ищем запчасти?</label>
+            <div class="form_input">
+                <input id="textinput" name="textinput" type="text" placeholder="Введите город">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="textarea">Какие запасные части ищем?</label>
+            <div class="form_input">
+                <textarea style="width: 38%;max-height: 200px; min-height: 80px; resize: vertical;" class="form-control" id="textarea" name="textarea" placeholder="Можно вводить наименования или каталожные номера"></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="filebutton">Загузить список XLS</label>
+            <div class="form_input">
+              <input id="filebutton" name="filebutton" class="input-file" type="file">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="filebutton">Добавить фото запчасти</label>
+            <div class="form_input">
+              <input id="filebutton" name="filebutton" class="input-file" type="file">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form_input">
+                <button id="buttonid" name="buttonid"   onClick="javascript: window.alert('Ваш запрос отправлен на обработку! Ожидайте, пожалуйста!');">Подобрать запчасти</button>
+            </div>
+        </div>
+        </fieldset>
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+            <div class="footer_reminders">
+                <div class="social">
+                        <a href="https://vk.com/volvotruckdoctor"><img src="img/vk.svg"></a>
+                        <a href="http://www.facebook.com"><img src="img/facebook.svg"></a>
+                        <a href="http://www.youtube.com"><img src="img/youtube.svg"></a>
+                        <a href="http://www.instagram.com"><img src="img/instagram.svg"></a>
+                </div>
+                <div class="spam footer_devider">
+                    <p>Подпишитесь на рассылку уведомлений о новых публикациях!</p>
+                    <form method=post action='#'>
+                        <input type="text" name="e-mail" placeholder="Ваш e-mail" class="borderless">
+                        <button type="submit">Подписаться</button>
+                    </form>
+                </div>
+            </div>
+            <br><p>Copyright &copy; 2019. Created by Luschyk Alexey</p><br>
+        </footer>
+	</body>
+</html>

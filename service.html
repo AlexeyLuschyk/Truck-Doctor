@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="shortcut icon" href="img/favicon.gif" type="image/gif">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <title>TRUCK DOCTOR</title>
+	</head>
+
+	<body>
+        <header>
+            <div class="header_info">
+                <h1>VOLVO TRUCK DOCTOR</h1>
+                <p>+375(44) 7 586 586</p>
+            </div>
+            <nav class="menu">
+                    <div class="menu_list">
+                        <div class="menu_list_item"><a href="index.html" class="item"><i class="fas fa-home"></i> Главная</a></div>
+                        <div class="menu_list_item"><a href="service.html" class="item"><i class="fas fa-ambulance"></i> Сервис</a></div>
+                        <div class="menu_list_item"><a href="parts.html" class="item"><i class="fas fa-luggage-cart"></i> Запчасти</a></div>
+                        <div class="menu_list_item"><a href="videogallery.html" class="item"><i class="fas fa-video"></i> Видео</a></div>
+                        <div class="menu_list_item"><a href="contacts.html" class="item"><i class="far fa-address-card"></i> Контакты</a></div>
+                    </div>
+            </nav>
+        </header>
+
+    <main>
+        <div class="service_intro">
+            <h2>Техподдержка/Сервис</h2><br>
+            <p><span>ВНИМАНИЕ!!!</span><br><br>Уважаемые коллеги, для ускорения скорости ответа и улучшения его качества, пожалуйста, постарайтесь наиболее полно заполнить данные по модели грузовика и присутствующим на данный момент неисправностям.  </p>
+        </div>
+    <form>
+        <fieldset>
+        <legend>Укажите тип автомобиля и опишите неисправность</legend>
+        <div class="form-group">
+            <label for="volvo_model">Выберите модель</label>
+            <div class="form_input">
+                <select id="volvo_model" name="selectbasic" class="form-control">
+                        <option value="1">FH12/FM12</option>
+                        <option value="2">FL6/FL7</option>
+                        <option value="3">FL/FE</option>
+                        <option value="4">FL3/FE3</option>
+                        <option value="5">F12/F16</option>
+                        <option value="6">FH-2 series</option>
+                        <option value="7">FH-3 series</option>
+                        <option value="8">FH16</option>
+                        <option value="9">FH4/FM4</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="year">Год выпуска</label>
+            <div class="form_input">
+                <input id="year" name='year' type='number' value='' step="1" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="textinput">Номер шасси(не обязательно)</label>
+            <div class="form_input">
+                <input id="textinput" name="textinput" type="text" placeholder="VIN" class="form-control input-md" value="">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="tel">Ваш телефон:</label>
+            <div class="form_input">    
+                <input class="area" type="tel" id="tel" name="tel" placeholder="Введите номер телефона">
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="checkbox" name="checkboxes_eng">
+        Сохранить автомобиль в личном кабинете
+        </div>
+    <div class="problems_list">
+            <div class="problems">    
+                <label class="label" for="checkboxes_eng">Двигатель:</label>
+                <div class="engine problem_item">
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkboxes_eng">
+                        Не тянет (потеря мощности)
+                    </div>
+                    <div class="checkbox">
+                            <input type="checkbox" name="checkboxes_eng">
+                        Низкое значение давления наддува
+                    </div>
+                    <div class="checkbox">
+                            <input type="checkbox" name="checkboxes_eng">
+                        Повышенный расход топлива
+                    </div>
+                    <div class="checkbox">
+                            <input type="checkbox" name="checkboxes_eng">
+                        Черный дым
+                    </div>
+                    <div class="checkbox">
+                            <input type="checkbox" name="checkboxes_eng">
+                        Сизый дым
+                    </div>
+                    <div class="checkbox">
+                            <input type="checkbox" name="checkboxes_eng">
+                        Белый дым
+                    </div>
+                    <div class="checkbox">
+                            <input type="checkbox" name="checkboxes_eng">
+                        Пропуски в работе цилиндров
+                    </div>
+                    <div class="checkbox">
+                            <input type="checkbox" name="checkboxes_eng">
+                        Неустойчивая работа двигателя (глохнет)
+                    </div>
+                    <div class="checkbox">
+                            <input type="checkbox" name="checkboxes_eng">
+                        Неустойчивая работа двигателя (НЕ глохнет)
+                    </div>
+                    <div class="checkbox">
+                            <input type="checkbox" name="checkboxes_eng">
+                        Двигатель глохнет после работы на ХХ
+                    </div>
+                    <div class="checkbox">
+                            <input type="checkbox" name="checkboxes_eng">
+                        Не заводится после длительной стоянки
+                    </div>
+                    <div class="checkbox">
+                            <input type="checkbox" name="checkboxes_eng">
+                        Не заводится после выключения зажигания
+                    </div>
+                    <div class="checkbox">
+                            <input type="checkbox" name="checkboxes_eng">
+                        Не заводится
+                    </div>
+                    <div class="checkbox">
+                            <input type="checkbox" name="checkboxes_eng">
+                        Вибрация двигателя
+                    </div>
+                    <div class="checkbox">
+                            <input type="checkbox" name="checkboxes_eng">
+                        Парит из сапуна ДВС
+                    </div>
+                </div>
+            </div>
+            <div class="problems">    
+                <label class="label" for="checkboxes_transmission">Трансмиссия:</label>
+                <div class="transmission problem_item">
+                        <div class="checkbox">
+                            <input type="checkbox" name="checkboxes_transmission">
+                            Вибрация при движении
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_transmission">
+                            Нет воздуха в сцеплении
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_transmission">
+                            Удары при переключении передач
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_transmission">
+                            Дергание/удары при трогании с места
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_transmission">
+                            Не вЫключается передача
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_transmission">
+                            Не возвращается педаль сцепления (провалилась)
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_transmission">
+                            Не выжимается педаль сцепления
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_transmission">
+                            Гул редуктора
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_transmission">
+                            Стружка в масле
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_transmission">
+                            Неестественный цвет масла
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_transmission">
+                            Биение педали сцепления при нажатии
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_transmission">
+                            Удары при торможении/остановке
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_transmission">
+                            Не работает блокировка дифференциала
+                        </div>
+                </div>
+            </div>
+            <div class="problems">    
+                <label class="label" for="checkboxes_electr">Электрика, тормоза, пневмо:</label>
+                <div class="electr problem_item">
+                        <div class="checkbox">
+                            <input type="checkbox" name="checkboxes_electr">
+                            Вибрация при торможении
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_electr">
+                            Тянет в сторону при торможении
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_electr">
+                            Биение руля при торможении
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_electr">
+                            Не качает воздух
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_electr">
+                            Давление в тормозных контурах выше нормы
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_electr">
+                            Нет воздуха в одном из контуров
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_electr">
+                            Ошибки ABS/EBS
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_electr">
+                            "Падают" подушки после стоянки
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_electr">
+                            Масло в ресиверах
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_electr">
+                            Громко срабатывает осушитель
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_electr">
+                            Постоянно "шипит" осушитель
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_electr">
+                            Ошибки по осушителю
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_electr">
+                            Перегреваются передние тормоза
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_electr">
+                            Окалины на дисках
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_electr">
+                            Плохо тормозит прицеп
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_electr">
+                            Быстрый износ колодок на передней оси
+                        </div>
+                        <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_electr">
+                            Быстрый износ колодок на задней оси
+                        </div>
+                </div>
+            </div>
+            <div class="problems">    
+                <label class="label" for="checkboxes_steering">Рулевое, подвеска, ССУ:</label>
+                <div class="steering problem_item">
+                            <div class="checkbox">
+                                <input type="checkbox" name="checkboxes_steering">
+                                Стук при движении
+                            </div>
+                            <div class="checkbox">
+                                    <input type="checkbox" name="checkboxes_steering">
+                                Тянет в сторону при движении
+                            </div>
+                            <div class="checkbox">
+                                    <input type="checkbox" name="checkboxes_steering">
+                                Проблемы с прямолинейным движением
+                            </div>
+                            <div class="checkbox">
+                                    <input type="checkbox" name="checkboxes_steering">
+                                Неравномерный износ резины
+                            </div>
+                            <div class="checkbox">
+                                    <input type="checkbox" name="checkboxes_steering">
+                                Туго вращается руль
+                            </div>
+                            <div class="checkbox">
+                                    <input type="checkbox" name="checkboxes_steering">
+                                Гул во время вращения рулевого колеса
+                            </div>
+                            <div class="checkbox">
+                                    <input type="checkbox" name="checkboxes_steering">
+                                Люфт в рулевом механизме
+                            </div>
+                            <div class="checkbox">
+                                    <input type="checkbox" name="checkboxes_steering">
+                                Утечка жидкости из ГУР
+                            </div>
+                            <div class="checkbox">
+                                    <input type="checkbox" name="checkboxes_steering">
+                                Удары при трогании
+                            </div>
+                            <div class="checkbox">
+                                    <input type="checkbox" name="checkboxes_steering">
+                                Удары при торможении
+                            </div>
+                            <div class="checkbox">
+                                    <input type="checkbox" name="checkboxes_steering">
+                                Щелчки/удары при повороте
+                            </div>
+                            <div class="checkbox">
+                                    <input type="checkbox" name="checkboxes_steering">
+                                Не расцепляется ССУ
+                            </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="textarea">Опишите проблему:</label>
+            <div class="form_input">
+                <textarea style="width: 50%;max-height: 200px; min-height: 80px; resize: vertical;" class="form-control" id="textarea" name="textarea" placeholder="Когда проявляется неисправность, присутствуют ли активные ошибки"></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="filebutton">Добавить фото неисправности</label>
+            <div class="form_input">
+              <input id="filebutton" name="filebutton" class="input-file" type="file">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form_input">
+                <button id="buttonid" name="buttonid"   onClick="javascript: window.alert('Ваш запрос отправлен на обработку! Ожидайте, пожалуйста!');">Найти решение проблемы</button>
+            </div>
+        </div>
+        </fieldset>
+    </form>
+
+    </main>
+
+    <footer>
+            <div class="footer_reminders">
+                <div class="social">
+                        <a href="https://vk.com/volvotruckdoctor"><img src="img/vk.svg"></a>
+                        <a href="http://www.facebook.com"><img src="img/facebook.svg"></a>
+                        <a href="http://www.youtube.com"><img src="img/youtube.svg"></a>
+                        <a href="http://www.instagram.com"><img src="img/instagram.svg"></a>
+                </div>
+                <div class="spam footer_devider">
+                    <p>Подпишитесь на рассылку уведомлений о новых публикациях!</p>
+                    <form method=post action='#'>
+                        <input type="text" name="e-mail" placeholder="Ваш e-mail" class="borderless">
+                        <button type="submit">Подписаться</button>
+                    </form>
+                </div>
+            </div>
+            <br><p>Copyright &copy; 2019. Created by Luschyk Alexey</p><br>
+        </footer>
+	</body>
+</html>

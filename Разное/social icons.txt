@@ -1,0 +1,196 @@
+<a href="https://www.instagram.com/gk_omega" target="_blank" rel="nofollow"><img src="/images/social/instagram.svg" alt="Instagram" style="width: 32px; padding-right: 3px;"></a>
+
+<div class="social-icons">
+                    <a href="https://vk.com/etsp_omega" class="social-icon-link" target="_blank" rel="nofollow">
+                        <img src="/images/social/vk.svg" title="Мы ВКонтакте" alt="Мы ВКонтакте"></a>
+                    <a href="https://www.facebook.com/etsp.ru/" class="social-icon-link" target="_blank">
+                        <img src="/images/social/facebook.svg" title="Мы в Facebook" alt="Мы в Facebook"></a>
+                    <a href="https://twitter.com/gkomega" class="social-icon-link" target="_blank" rel="nofollow">
+                        <img src="/images/social/twitter.svg" title="Мы в Twitter" alt="Мы в Twitter"></a>
+                    <a href="https://ok.ru/group/54874076020736" class="social-icon-link" target="_blank" rel="nofollow">
+                        <img src="/images/social/ok.svg" title="Мы в Одноклассниках" alt="Мы в Одноклассниках"></a>
+                    <a href="https://plus.google.com/u/0/106397251251886599098" class="social-icon-link" target="_blank" rel="nofollow">
+                        <img src="/images/social/googleplus.svg" title="Мы в Google+" alt="Мы в Google+"></a>
+                    <a href="https://www.youtube.com/channel/UCnHe_BPL9E8vZ53Z9_9FXqA" class="social-icon-link" target="_blank" rel="nofollow">
+                        <img src="/images/social/youtube.svg" title="Мы на Youtube" alt="Мы на Youtube"></a>
+                    <a href="https://www.instagram.com/gk_omega/" class="social-icon-link" target="_blank" rel="nofollow">
+                        <img src="/images/social/instagram.svg" title="Мы в Instagram" alt="Мы в Instagram"></a>
+</div>
+
+
+<div class="footer_inner ui-pagewidthlimit">
+            <ul>
+                <li><a href="#cookies" class="footer_link au-target" click.delegate="cookieInfoRequested()" au-target-id="267"><i class="fas fa-info-circle"></i><span>Cookies</span></a></li>
+                <li><a href="#" class="footer_link au-target" click.delegate="privacyInfoRequested()" au-target-id="269"><i class="fas fa-lock"></i><span>Privacy</span></a></li>
+                <li><a href="#" class="footer_link au-target" click.delegate="helpdeskRequested()" au-target-id="271"><i class="fas fa-envelope"></i><span>Contact</span></a></li>
+            </ul>
+            <div class="au-target footer_logos singlebrand" au-target-id="273">
+                <div class="au-target footer_logo volvo" au-target-id="274"></div><!--anchor-->
+            </div><!--anchor-->
+</div>
+
+стили к ним
+.footer_inner {
+    display: flex;
+    align-items: center;
+}
+
+.ui-pagewidthlimit {
+    max-width: 58.75rem;
+    margin: auto;
+}
+
+
+
+красивый футер https://www.volvotrucks.ru/ru-ru/news/press-releases/2019/may/volvo-fh-xxl.html - Код НИЖЕ
+
+<div class="visible-md visible-lg row footercol-links">
+			<div class="footer-column col-md-3 col-sm-6">
+				<h4>МОДЕЛЬНЫЙ РЯД</h4>
+				<div class="footer-links">
+					<div class="">
+						<div class="wrapper">
+							<ul class="list-unstyled">
+								
+									<li>
+										<a href="https://www.volvotrucks.ru/ru-ru/trucks/volvo-fh16.html" id="link-159"> Volvo FH16</a>
+									</li>
+								
+									<li>
+										<a href="https://www.volvotrucks.ru/ru-ru/trucks/volvo-fh.html" id="link-160"> Volvo FH</a>
+									</li>
+															
+									<li>
+										<a href="https://www.volvotrucks.ru/ru-ru/trucks/volvo-fmx.html" id="link-161"> Volvo FMX</a>
+									</li>
+								
+									<li>
+										<a href="https://www.volvotrucks.ru/ru-ru/trucks/volvo-fm.html" id="link-162"> Volvo FM</a>
+									</li>
+								
+									<li>
+										<a href="https://www.volvotrucks.ru/ru-ru/trucks/volvo-fe.html" id="link-163"> Volvo FE</a>
+									</li>
+								
+									<li>
+										<a href="https://www.volvotrucks.ru/ru-ru/trucks/volvo-fl.html" id="link-164"> Volvo FL</a>
+									</li>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-column col-md-3 col-sm-6">
+				<h4>УСЛУГИ</h4>
+				<div class="footer-links">
+					<div class="">
+						<div class="wrapper">
+							<ul class="list-unstyled">
+								
+									<li>
+										<a href="https://www.volvotrucks.ru/ru-ru/services/workshop-services/service-contracts.html" id="link-165"> Сервисные контракты</a>
+									</li>
+								
+									<li>
+										<a href="https://www.volvotrucks.ru/ru-ru/services/financing.html" id="link-166"> Финансирование</a>
+									</li>
+								
+									<li>
+										<a href="https://www.volvotrucks.ru/ru-ru/services/driver-development.html" id="link-167"> Обучение водителей</a>
+									</li>
+								
+									<li>
+										<a href="https://www.volvotrucks.ru/ru-ru/services/fleet-management.html" id="link-168"> Управление автопарком</a>
+									</li>
+								
+									<li>
+										<a href="https://www.volvotrucks.ru/ru-ru/services/fuel-advice.html" id="link-169"> Консультации по топливной экономичности</a>
+									</li>
+								
+									<li>
+										<a href="https://www.volvotrucks.ru/ru-ru/services/workshop-services/roadside-assistance.html" id="link-170"> Служба экстренной помощи Volvo Action Service</a>
+									</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-column col-md-3 col-sm-6">
+				<h4>СОЦИАЛЬНЫЕ СЕТИ</h4>
+				<div class="footer-links">
+					<div class="">
+						<div class="wrapper">
+							<ul class="list-unstyled">
+								
+									<li>
+										<a href="https://www.facebook.com/volvotrucksrussia" target="_blank" class="no-arrow" id="link-171"> <i class="fa fa-facebook-official">&nbsp;</i>Facebook</a>
+									</li>
+																							
+									<li>
+										<a href="https://www.twitter.com/VolvoTrucksRus" target="_blank" class="no-arrow" id="link-172"> <i class="fa fa-twitter">&nbsp;</i>Twitter</a>
+									</li>
+																
+									<li>
+										<a href="https://www.youtube.com/user/VolvoTrucksRussia" target="_blank" class="no-arrow" id="link-173"> <i class="fa fa-youtube">&nbsp;</i>Youtube</a>
+									</li>
+								
+									<li>
+										<a href="https://instagram.com/volvotrucksrussia" target="_blank" class="no-arrow" id="link-174"> <i class="fa fa-instagram">&nbsp;</i>Instagram</a>
+									</li>
+											
+									<li>
+										<a href="https://www.flickr.com/photos/volvotrucks" target="_blank" class="no-arrow" id="link-175"> <i class="fa fa-flickr">&nbsp;</i>Flickr</a>
+									</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-column col-md-3 col-sm-6">
+				<h4>О VOLVO TRUCKS</h4>
+				<div class="footer-links">
+					<div class="">
+						<div class="wrapper">
+							<ul class="list-unstyled">
+								
+									<li>
+										<a href="https://www.volvotrucks.ru/ru-ru/news.html" id="link-176"> Новости</a>
+									</li>
+									<li>
+										<a href="https://www.volvotrucks.ru/ru-ru/about/values.html" id="link-177"> Наши ценности</a>
+									</li>
+																
+									<li>
+										<a href="https://www.volvotrucks.ru/ru-ru/about/contact.html" id="link-178"> Свяжитесь с нами</a>
+									</li>
+																
+									<li>
+										<a href="https://www.volvotrucks.ru/ru-ru/about/careers.html" id="link-179"> Вакансии</a>
+									</li>
+								
+									<li>
+										<a href="http://volvotrucks-service.ru/" target="_blank" id="link-180"> Каталог запасных частей</a>
+									</li>
+
+									<li>
+										<a href="https://images.volvotrucks.com/#1481602981567_0" target="_blank" id="link-181"> Галерея изображений Volvo Trucks</a>
+									</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+Кнопки лайков:
+
+<ytd-toggle-button-renderer class="style-scope ytd-menu-renderer force-icon-button style-text" button-renderer="" new-subscribe-color="" is-icon-button=""><a class="yt-simple-endpoint style-scope ytd-toggle-button-renderer" tabindex="-1"><yt-icon-button id="button" class="style-scope ytd-toggle-button-renderer style-text" aria-pressed="false"><button id="button" class="style-scope yt-icon-button" aria-label="Видео понравилось вам и ещё 2&nbsp;453&nbsp;пользователям"><yt-icon class="style-scope ytd-toggle-button-renderer"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon">
+        <path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z" class="style-scope yt-icon"></path>
+      </g></svg>  </yt-icon></button></yt-icon-button><yt-formatted-string id="text" class="style-scope ytd-toggle-button-renderer style-text" aria-label="Понравилось: 2&nbsp;453">2,4&nbsp;тыс.</yt-formatted-string><paper-tooltip class="style-scope ytd-toggle-button-renderer" role="tooltip" tabindex="-1" style="left: 0px; right: auto; top: 44px; bottom: auto;"><!--css-build:shady-->
+
+    <div id="tooltip" class="style-scope paper-tooltip hidden">
+      Мне понравилось
+    </div>
+</paper-tooltip></a></ytd-toggle-button-renderer>
